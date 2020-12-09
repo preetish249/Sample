@@ -1,0 +1,63 @@
+{
+  "name": "cust_dependents",
+  "type": "DATASTORE",
+  "tbId": "wt_tab_032_",
+  "columns": [
+    {
+      "length": 20,
+      "dataType": "STRING",
+      "defValue": "",
+      "name": "CUST_ID",
+      "pkColumn": true,
+      "mandatory": true
+    },
+    {
+      "name": "DEPENDENT_ID",
+      "length": 20,
+      "dataType": "STRING",
+      "pkColumn": true,
+      "mandatory": true,
+      "defValue": ""
+    },
+    {
+      "name": "NAME",
+      "dataType": "STRING",
+      "length": 45,
+      "pkColumn": false,
+      "mandatory": true,
+      "defValue": ""
+    },
+    {
+      "name": "RELATION",
+      "length": 20,
+      "dataType": "STRING",
+      "pkColumn": false,
+      "mandatory": true,
+      "defValue": ""
+    },
+    {
+      "name": "AGE",
+      "dataType": "INTEGER",
+      "length": 4,
+      "pkColumn": false,
+      "mandatory": true,
+      "defValue": ""
+    },
+    {
+      "name": "DATE_OF_BIRTH",
+      "dataType": "DATE",
+      "length": 11,
+      "pkColumn": false,
+      "mandatory": false,
+      "defValue": ""
+    },
+    {
+      "name": "DEPENDENT_OF",
+      "length": 100,
+      "dataType": "STRING",
+      "pkColumn": false,
+      "mandatory": true,
+      "defValue": ""
+    }
+  ]
+}

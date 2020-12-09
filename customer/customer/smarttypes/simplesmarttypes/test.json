@@ -1,0 +1,21 @@
+{
+  "name": "test",
+  "type": "SIMPLESMARTTYPE",
+  "tbId": "wt_tab_009_",
+  "dataType": "STRING",
+  "desc": "",
+  "smartType": "CUSTPTRN",
+  "drvType": "INPUT",
+  "customPattern": "",
+  "maxLen": "",
+  "minLen": "",
+  "strValidationType": "Alpha Numeric",
+  "regExprsn": "",
+  "maxVal": "",
+  "minVal": "",
+  "maxDecimals": "",
+  "maxDate": "",
+  "minDate": "",
+  "mandatory": "",
+  "timeBound": ""
+}

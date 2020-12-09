@@ -1,0 +1,75 @@
+{
+  "name": "customerDtlsCtp",
+  "desc": "Customer Basic Details",
+  "type": "COMPOSITESMARTTYPE",
+  "smartTypeName": "",
+  "options": [],
+  "childs": [
+    {
+      "name": "custId",
+      "desc": "Customer Id",
+      "type": "ELEMENT",
+      "smartTypeName": "xstpCustId"
+    },
+    {
+      "name": "firstName",
+      "desc": "First Name",
+      "type": "ELEMENT",
+      "smartTypeName": "xstpName"
+    },
+    {
+      "name": "middleName",
+      "desc": "Middle Name",
+      "type": "ELEMENT",
+      "smartTypeName": "xstpName"
+    },
+    {
+      "name": "lastName",
+      "desc": "Last Name",
+      "type": "ELEMENT",
+      "smartTypeName": "xstpLastName"
+    },
+    {
+      "name": "dob",
+      "desc": "Date of Birth",
+      "type": "ELEMENT",
+      "smartTypeName": "xstpDOB"
+    },
+    {
+      "name": "annualSalary",
+      "desc": "Annual Salary",
+      "type": "ELEMENT",
+      "smartTypeName": "xstpSalary"
+    },
+    {
+      "name": "custPrsnlDtls",
+      "desc": "Customer Personal Details",
+      "type": "NODE",
+      "smartTypeName": "personalDetailsCtp",
+      "childs": [
+        {
+          "type": "NODE",
+          "smartTypeName": "dependentsCtp",
+          "name": "custDependents",
+          "desc": "Node",
+          "inherited": true,
+          "childs": [],
+          "relationType": "ONETOMANY"
+        }
+      ],
+      "inherited": false,
+      "relationType": "ONETOONE"
+    },
+    {
+      "name": "custDocs",
+      "desc": "Customer Documents",
+      "type": "NODE",
+      "smartTypeName": "documentsCtp",
+      "childs": [],
+      "inherited": false,
+      "relationType": "ONETOMANY"
+    }
+  ],
+  "tbId": "wt_tab_020_",
+  "relationType": "ONETOONE"
+}

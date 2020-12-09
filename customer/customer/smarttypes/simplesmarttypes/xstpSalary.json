@@ -1,0 +1,21 @@
+{
+  "name": "xstpSalary",
+  "desc": "Salary",
+  "type": "SIMPLESMARTTYPE",
+  "dataType": "FLOAT",
+  "smartType": "AMOUNT",
+  "drvType": "INPUT",
+  "customPattern": "",
+  "maxLen": "",
+  "minLen": "",
+  "regExprsn": "",
+  "strValidationType": "Numeric",
+  "maxVal": "",
+  "minVal": "8",
+  "maxDecimals": "",
+  "maxDate": "",
+  "minDate": "",
+  "mandatory": "Y",
+  "timeBound": "N",
+  "tbId": "wt_tab_018_"
+}

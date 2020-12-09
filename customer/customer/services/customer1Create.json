@@ -1,0 +1,312 @@
+{
+  "name": "customer1Create",
+  "type": "SERVICE",
+  "childs": [
+    {
+      "type": "NODE",
+      "smartTypeName": "customerDtlsCtp",
+      "name": "custDtls",
+      "desc": "Node",
+      "inherited": false,
+      "childs": [
+        {
+          "name": "custId",
+          "desc": "Customer Id",
+          "type": "ELEMENT",
+          "smartTypeName": "xstpCustId",
+          "inherited": true,
+          "dataStoreId": "custMasterDst",
+          "dataStoreColId": "CUST_ID"
+        },
+        {
+          "name": "firstName",
+          "desc": "First Name",
+          "type": "ELEMENT",
+          "smartTypeName": "xstpName",
+          "inherited": true,
+          "dataStoreId": "custMasterDst",
+          "dataStoreColId": "FIRST_NAME"
+        },
+        {
+          "name": "middleName",
+          "desc": "Middle Name",
+          "type": "ELEMENT",
+          "smartTypeName": "xstpName",
+          "inherited": true,
+          "dataStoreId": "custMasterDst",
+          "dataStoreColId": "MIDDLE_NAME"
+        },
+        {
+          "name": "lastName",
+          "desc": "Last Name",
+          "type": "ELEMENT",
+          "smartTypeName": "xstpLastName",
+          "inherited": true,
+          "dataStoreId": "custMasterDst",
+          "dataStoreColId": "LAST_NAME"
+        },
+        {
+          "name": "dob",
+          "desc": "Date of Birth",
+          "type": "ELEMENT",
+          "smartTypeName": "xstpDOB",
+          "inherited": true,
+          "dataStoreId": "custMasterDst",
+          "dataStoreColId": "DATE_OF_BIRTH"
+        },
+        {
+          "name": "annualSalary",
+          "desc": "Annual Salary",
+          "type": "ELEMENT",
+          "smartTypeName": "xstpSalary",
+          "inherited": true,
+          "dataStoreId": "custMasterDst",
+          "dataStoreColId": "ANNUAL_SALARY"
+        },
+        {
+          "name": "custPrsnlDtls",
+          "desc": "Customer Personal Details",
+          "type": "NODE",
+          "smartTypeName": "personalDetailsCtp",
+          "childs": [
+            {
+              "name": "qulification",
+              "desc": "Customer Qulification",
+              "type": "ELEMENT",
+              "smartTypeName": "xstpName",
+              "inherited": true,
+              "dataStoreId": "custPersonalDst",
+              "dataStoreColId": "QUALIFICATION"
+            },
+            {
+              "name": "spouseName",
+              "desc": "Spouse Name",
+              "type": "ELEMENT",
+              "smartTypeName": "xstpName",
+              "inherited": true,
+              "dataStoreId": "custPersonalDst",
+              "dataStoreColId": "SPOUSE_NAME"
+            },
+            {
+              "name": "noOfChildren",
+              "desc": "No of Children",
+              "type": "ELEMENT",
+              "smartTypeName": "xstpChildren",
+              "inherited": true,
+              "dataStoreId": "custPersonalDst",
+              "dataStoreColId": "NO_OF_CHILDREN"
+            },
+            {
+              "name": "anniversary",
+              "desc": "Anniversary",
+              "type": "ELEMENT",
+              "smartTypeName": "xstpDate",
+              "inherited": true,
+              "dataStoreId": "custPersonalDst",
+              "dataStoreColId": "ANNIVERSARY"
+            },
+            {
+              "type": "ELEMENT",
+              "smartTypeName": "xstpCustId",
+              "name": "custid",
+              "desc": "Element",
+              "inherited": true,
+              "dataStoreId": "custPersonalDst",
+              "dataStoreColId": "CUST_ID"
+            },
+            {
+              "type": "ELEMENT",
+              "smartTypeName": "xstpName",
+              "name": "name",
+              "desc": "Element",
+              "inherited": true,
+              "dataStoreId": "custPersonalDst",
+              "dataStoreColId": "CUST_NAME"
+            },
+            {
+              "type": "NODE",
+              "smartTypeName": "dependentsCtp",
+              "name": "custDependents",
+              "desc": "Node",
+              "inherited": true,
+              "childs": [
+                {
+                  "name": "custid",
+                  "desc": "Customer Id",
+                  "type": "ELEMENT",
+                  "smartTypeName": "xstpCustId",
+                  "inherited": true,
+                  "dataStoreId": "custDependentsDst",
+                  "dataStoreColId": "CUST_ID"
+                },
+                {
+                  "name": "dependentid",
+                  "desc": "DependentId",
+                  "type": "ELEMENT",
+                  "smartTypeName": "xstpCustId",
+                  "inherited": true,
+                  "dataStoreId": "custDependentsDst",
+                  "dataStoreColId": "DEPENDENT_ID"
+                },
+                {
+                  "name": "name",
+                  "desc": "Dependent Name",
+                  "type": "ELEMENT",
+                  "smartTypeName": "xstpName",
+                  "inherited": true,
+                  "dataStoreId": "custDependentsDst",
+                  "dataStoreColId": "NAME"
+                },
+                {
+                  "name": "relation",
+                  "desc": "Depenent Relation",
+                  "type": "ELEMENT",
+                  "smartTypeName": "xstpRelation",
+                  "inherited": true,
+                  "dataStoreId": "custDependentsDst",
+                  "dataStoreColId": "NAME"
+                },
+                {
+                  "name": "age",
+                  "desc": "Age of Dependent",
+                  "type": "ELEMENT",
+                  "smartTypeName": "xstpChildren",
+                  "inherited": true,
+                  "dataStoreId": "custDependentsDst",
+                  "dataStoreColId": "AGE"
+                },
+                {
+                  "name": "dob",
+                  "desc": "Dependent DOB",
+                  "type": "ELEMENT",
+                  "smartTypeName": "xstpDOB",
+                  "inherited": true,
+                  "dataStoreId": "custDependentsDst",
+                  "dataStoreColId": "DATE_OF_BIRTH"
+                },
+                {
+                  "type": "ELEMENT",
+                  "smartTypeName": "xstpName",
+                  "name": "dependentof",
+                  "desc": "Element",
+                  "inherited": true,
+                  "dataStoreId": "custDependentsDst",
+                  "dataStoreColId": "DEPENDENT_OF"
+                }
+              ],
+              "relationType": "ONETOMANY",
+              "dataStores": [
+                {
+                  "dataStoreId": "custDependentsDst",
+                  "dataStoreName": "cust_dependents",
+                  "parentDataStoreId": "custPersonalDst",
+                  "relationWithParent": "this.CUST_ID = :Param1",
+                  "propagationColumns": "CUST_ID~DEPENDENT_OF:CUST_ID~CUST_NAME",
+                  "relBindVarMapping": "Param1:custPersonalDst.CUST_ID"
+                }
+              ]
+            }
+          ],
+          "inherited": true,
+          "relationType": "ONETOONE",
+          "dataStores": [
+            {
+              "dataStoreId": "custPersonalDst",
+              "dataStoreName": "cust_personal",
+              "parentDataStoreId": "custMasterDst",
+              "relationWithParent": "this.CUST_ID = :Param1",
+              "propagationColumns": "CUST_ID~CUST_NAME:CUST_ID~FIRST_NAME",
+              "relBindVarMapping": "Param1:custMasterDst.CUST_ID"
+            }
+          ]
+        },
+        {
+          "name": "custDocs",
+          "desc": "Customer Documents",
+          "type": "NODE",
+          "smartTypeName": "documentsCtp",
+          "childs": [
+            {
+              "name": "docId",
+              "desc": "Document ID",
+              "type": "ELEMENT",
+              "smartTypeName": "xstpDocId",
+              "inherited": true,
+              "dataStoreId": "custDocsDst",
+              "dataStoreColId": "DOC_ID"
+            },
+            {
+              "name": "docType",
+              "desc": "Document Type",
+              "type": "ELEMENT",
+              "smartTypeName": "xstpName",
+              "inherited": true,
+              "dataStoreId": "custDocsDst",
+              "dataStoreColId": "DOC_TYPE"
+            },
+            {
+              "name": "docNo",
+              "desc": "Document Number",
+              "type": "ELEMENT",
+              "smartTypeName": "xstpDocNo",
+              "inherited": true,
+              "dataStoreId": "custDocsDst",
+              "dataStoreColId": "DOC_NO"
+            },
+            {
+              "name": "expDate",
+              "desc": "Document Expairy Date",
+              "type": "ELEMENT",
+              "smartTypeName": "xstpDate",
+              "inherited": true,
+              "dataStoreId": "custDocsDst",
+              "dataStoreColId": "EXPIRY_DATE"
+            },
+            {
+              "type": "ELEMENT",
+              "smartTypeName": "xstpCustId",
+              "name": "custid",
+              "desc": "Element",
+              "inherited": true,
+              "dataStoreId": "custDocsDst",
+              "dataStoreColId": "CUST_ID"
+            },
+            {
+              "type": "ELEMENT",
+              "smartTypeName": "xstpName",
+              "name": "owner",
+              "desc": "Element",
+              "inherited": true,
+              "dataStoreId": "custDocsDst",
+              "dataStoreColId": "OWNER"
+            }
+          ],
+          "inherited": true,
+          "relationType": "ONETOMANY",
+          "dataStores": [
+            {
+              "dataStoreId": "custDocsDst",
+              "dataStoreName": "cust_docs",
+              "parentDataStoreId": "custMasterDst",
+              "relationWithParent": "this.CUST_ID = :Param1",
+              "propagationColumns": "CUST_ID~OWNER:CUST_ID~FIRST_NAME",
+              "relBindVarMapping": "Param1:custMasterDst.CUST_ID"
+            }
+          ]
+        }
+      ],
+      "dataStores": [
+        {
+          "dataStoreId": "custMasterDst",
+          "dataStoreName": "cust_master",
+          "parentDataStoreId": "custMasterDst",
+          "relationWithParent": "this.CUST_ID = :Param1",
+          "propagationColumns": "",
+          "relBindVarMapping": "Param1:custMasterDst.CUST_ID"
+        }
+      ],
+      "relationType": "ONETOONE"
+    }
+  ],
+  "childsMap": {}
+}

@@ -1,0 +1,21 @@
+{
+  "name": "xstpDocNo",
+  "desc": "Customer Id Test",
+  "type": "SIMPLESMARTTYPE",
+  "dataType": "FLOAT",
+  "smartType": "",
+  "drvType": "INPUT",
+  "customPattern": "",
+  "maxLen": "8",
+  "minLen": "8",
+  "regExprsn": "[^\\s]*",
+  "strValidationType": "",
+  "maxVal": "",
+  "minVal": "8",
+  "maxDecimals": "",
+  "maxDate": "",
+  "minDate": "",
+  "mandatory": "Y",
+  "timeBound": "N",
+  "tbId": "wt_tab_014_"
+}

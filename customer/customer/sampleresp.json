@@ -1,0 +1,309 @@
+{
+	"prjData": {
+		"desc": "",
+		"name": "CUSTOMER",
+		"type": "PROJECT",
+		"filePath": "D:\\work\\xelerateprojects/CUSTOMER/CUSTOMER.json",
+		"childs": [{
+			"desc": "",
+			"name": "Languages",
+			"type": "LANGUAGES",
+			"filePath": "D:\\work\\xelerateprojects/CUSTOMER/CUSTOMER/Languages.json",
+			"childs": []
+		}, {
+			"desc": "",
+			"name": "Labels",
+			"type": "LABELS",
+			"filePath": "D:\\work\\xelerateprojects/CUSTOMER/CUSTOMER/Labels.json",
+			"childs": []
+		}, {
+			"desc": "",
+			"name": "Messages",
+			"type": "MESSAGES",
+			"filePath": "D:\\work\\xelerateprojects/CUSTOMER/CUSTOMER/Messages.json",
+			"childs": []
+		}, {
+			"desc": "",
+			"name": "List Of Values",
+			"type": "LOVS",
+			"filePath": "D:\\work\\xelerateprojects/CUSTOMER/CUSTOMER",
+			"childs": []
+		}, {
+			"desc": "",
+			"name": "Smart Attributes",
+			"type": "SIMPLETYPES",
+			"filePath": "D:\\work\\xelerateprojects/CUSTOMER/CUSTOMER",
+			"childs": [{
+				"desc": "No Of Children",
+				"name": "children",
+				"type": "SIMPLETYPE",
+				"filePath": "D:\\work\\xelerateprojects/CUSTOMER/CUSTOMER/simpletypes/children.json",
+				"childs": []
+			}, {
+				"desc": "Customer Id Test",
+				"name": "custId",
+				"type": "SIMPLETYPE",
+				"filePath": "D:\\work\\xelerateprojects/CUSTOMER/CUSTOMER/simpletypes/custId.json",
+				"childs": []
+			}, {
+				"desc": "Date Pattern",
+				"name": "date",
+				"type": "SIMPLETYPE",
+				"filePath": "D:\\work\\xelerateprojects/CUSTOMER/CUSTOMER/simpletypes/date.json",
+				"childs": []
+			}, {
+				"desc": "Date of Birth",
+				"name": "dob",
+				"type": "SIMPLETYPE",
+				"filePath": "D:\\work\\xelerateprojects/CUSTOMER/CUSTOMER/simpletypes/dob.json",
+				"childs": []
+			}, {
+				"desc": "Document Id",
+				"name": "docId",
+				"type": "SIMPLETYPE",
+				"filePath": "D:\\work\\xelerateprojects/CUSTOMER/CUSTOMER/simpletypes/docId.json",
+				"childs": []
+			}, {
+				"desc": "Customer Id Test",
+				"name": "docNo",
+				"type": "SIMPLETYPE",
+				"filePath": "D:\\work\\xelerateprojects/CUSTOMER/CUSTOMER/simpletypes/docNo.json",
+				"childs": []
+			}, {
+				"desc": "Last Name",
+				"name": "lastName",
+				"type": "SIMPLETYPE",
+				"filePath": "D:\\work\\xelerateprojects/CUSTOMER/CUSTOMER/simpletypes/lastName.json",
+				"childs": []
+			}, {
+				"desc": "Customer Name",
+				"name": "name",
+				"type": "SIMPLETYPE",
+				"filePath": "D:\\work\\xelerateprojects/CUSTOMER/CUSTOMER/simpletypes/name.json",
+				"childs": []
+			}, {
+				"desc": "Salary",
+				"name": "salary",
+				"type": "SIMPLETYPE",
+				"filePath": "D:\\work\\xelerateprojects/CUSTOMER/CUSTOMER/simpletypes/salary.json",
+				"childs": []
+			}]
+		}, {
+			"desc": "",
+			"name": "Composite Smart Attributes",
+			"type": "COMPLEXTYPES",
+			"filePath": "D:\\work\\xelerateprojects/CUSTOMER/CUSTOMER",
+			"childs": [{
+				"desc": "Customer Basic Details",
+				"name": "Customer",
+				"type": "COMPLEXTYPE",
+				"filePath": "D:\\work\\xelerateprojects/CUSTOMER/CUSTOMER/complextypes/Customer.json",
+				"childs": [{
+					"desc": "Customer Id",
+					"name": "custId",
+					"type": "ELEMENT",
+					"filePath": "",
+					"childs": []
+				}, {
+					"desc": "First Name",
+					"name": "firstName",
+					"type": "ELEMENT",
+					"filePath": "",
+					"childs": []
+				}, {
+					"desc": "Middle Name",
+					"name": "middleName",
+					"type": "ELEMENT",
+					"filePath": "",
+					"childs": []
+				}, {
+					"desc": "Last Name",
+					"name": "lastName",
+					"type": "ELEMENT",
+					"filePath": "",
+					"childs": []
+				}, {
+					"desc": "Date of Birth",
+					"name": "dob",
+					"type": "ELEMENT",
+					"filePath": "",
+					"childs": []
+				}, {
+					"desc": "Annual Salary",
+					"name": "annualSalary",
+					"type": "ELEMENT",
+					"filePath": "",
+					"childs": []
+				}, {
+					"desc": "Customer Personal Details",
+					"name": "custPrsnlDtls",
+					"type": "NODE",
+					"filePath": "",
+					"childs": []
+				}, {
+					"desc": "Customer Documents",
+					"name": "custDocs",
+					"type": "NODE",
+					"filePath": "",
+					"childs": []
+				}]
+			}, {
+				"desc": "Customer Documents",
+				"name": "Documents",
+				"type": "COMPLEXTYPE",
+				"filePath": "D:\\work\\xelerateprojects/CUSTOMER/CUSTOMER/complextypes/Documents.json",
+				"childs": [{
+					"desc": "Document ID",
+					"name": "docId",
+					"type": "ELEMENT",
+					"filePath": "",
+					"childs": []
+				}, {
+					"desc": "Document Type",
+					"name": "docType",
+					"type": "ELEMENT",
+					"filePath": "",
+					"childs": []
+				}, {
+					"desc": "Document Number",
+					"name": "docNo",
+					"type": "ELEMENT",
+					"filePath": "",
+					"childs": []
+				}, {
+					"desc": "Document Expairy Date",
+					"name": "expDate",
+					"type": "ELEMENT",
+					"filePath": "",
+					"childs": []
+				}]
+			}, {
+				"desc": "Customer Personal Details",
+				"name": "Personaldetails",
+				"type": "COMPLEXTYPE",
+				"filePath": "D:\\work\\xelerateprojects/CUSTOMER/CUSTOMER/complextypes/Personaldetails.json",
+				"childs": [{
+					"desc": "Customer Qulification",
+					"name": "qulification",
+					"type": "ELEMENT",
+					"filePath": "",
+					"childs": []
+				}, {
+					"desc": "Spouse Name",
+					"name": "spouseName",
+					"type": "ELEMENT",
+					"filePath": "",
+					"childs": []
+				}, {
+					"desc": "No of Children",
+					"name": "noOfChildren",
+					"type": "ELEMENT",
+					"filePath": "",
+					"childs": []
+				}, {
+					"desc": "Anniversary",
+					"name": "anniversary",
+					"type": "ELEMENT",
+					"filePath": "",
+					"childs": []
+				}]
+			}]
+		}, {
+			"desc": "",
+			"name": "Business Entities",
+			"type": "ENTITIES",
+			"filePath": "D:\\work\\xelerateprojects/CUSTOMER/CUSTOMER",
+			"childs": [{
+				"desc": "Customer Basic Details",
+				"name": "cust",
+				"type": "ENTITY",
+				"filePath": "D:\\work\\xelerateprojects/CUSTOMER/CUSTOMER/entities/cust.json",
+				"childs": [{
+					"desc": "Customer Id",
+					"name": "custId",
+					"type": "ELEMENT",
+					"filePath": "",
+					"childs": []
+				}, {
+					"desc": "First Name",
+					"name": "firstName",
+					"type": "ELEMENT",
+					"filePath": "",
+					"childs": []
+				}, {
+					"desc": "Middle Name",
+					"name": "middleName",
+					"type": "ELEMENT",
+					"filePath": "",
+					"childs": []
+				}, {
+					"desc": "Last Name",
+					"name": "lastName",
+					"type": "ELEMENT",
+					"filePath": "",
+					"childs": []
+				}, {
+					"desc": "Date of Birth",
+					"name": "dob",
+					"type": "ELEMENT",
+					"filePath": "",
+					"childs": []
+				}, {
+					"desc": "Annual Salary",
+					"name": "annualSalary",
+					"type": "ELEMENT",
+					"filePath": "",
+					"childs": []
+				}, {
+					"desc": "Customer Personal Details",
+					"name": "custPrsnlDtls",
+					"type": "NODE",
+					"filePath": "",
+					"childs": []
+				}, {
+					"desc": "Customer Documents",
+					"name": "custDocs",
+					"type": "NODE",
+					"filePath": "",
+					"childs": []
+				}]
+			}]
+		}, {
+			"desc": "",
+			"name": "Entity Relations",
+			"type": "RELATIONS",
+			"filePath": "D:\\work\\xelerateprojects/CUSTOMER/CUSTOMER",
+			"childs": []
+		}, {
+			"desc": "",
+			"name": "Screens",
+			"type": "SCREENS",
+			"filePath": "D:\\work\\xelerateprojects/CUSTOMER/CUSTOMER",
+			"childs": [{
+				"desc": "",
+				"name": "ChangePassword",
+				"type": "SCREEN",
+				"filePath": "D:\\work\\xelerateprojects/CUSTOMER/CUSTOMER/screens/ChangePassword.json",
+				"childs": []
+			}, {
+				"desc": "",
+				"name": "LandingPage",
+				"type": "SCREEN",
+				"filePath": "D:\\work\\xelerateprojects/CUSTOMER/CUSTOMER/screens/LandingPage.json",
+				"childs": []
+			}, {
+				"desc": "",
+				"name": "Login",
+				"type": "SCREEN",
+				"filePath": "D:\\work\\xelerateprojects/CUSTOMER/CUSTOMER/screens/Login.json",
+				"childs": []
+			},{
+				"desc": "",
+				"name": "CreateFarmer",
+				"type": "SCREEN",
+				"filePath": "D:\\work\\xelerateprojects/CUSTOMER/CUSTOMER/screens/CreateFarmer.json",
+				"childs": []
+			}]
+		}]
+	}
+}

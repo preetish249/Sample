@@ -1,0 +1,21 @@
+{
+  "name": "xstpChildren",
+  "desc": "No Of Children",
+  "type": "SIMPLESMARTTYPE",
+  "dataType": "INTEGER",
+  "smartType": "",
+  "drvType": "INPUT",
+  "customPattern": "",
+  "maxLen": "",
+  "minLen": "",
+  "regExprsn": "",
+  "strValidationType": "Numeric",
+  "maxVal": "",
+  "minVal": "8",
+  "maxDecimals": "",
+  "maxDate": "",
+  "minDate": "",
+  "mandatory": "N",
+  "timeBound": "N",
+  "tbId": "wt_tab_009_"
+}

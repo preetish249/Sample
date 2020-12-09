@@ -1,0 +1,21 @@
+{
+  "name": "xstpName",
+  "desc": "Customer Name",
+  "type": "SIMPLESMARTTYPE",
+  "dataType": "STRING",
+  "smartType": "",
+  "drvType": "INPUT",
+  "customPattern": "",
+  "maxLen": "100",
+  "minLen": "3",
+  "regExprsn": "",
+  "strValidationType": "Alpha",
+  "maxVal": "",
+  "minVal": "8",
+  "maxDecimals": "",
+  "maxDate": "",
+  "minDate": "",
+  "mandatory": "Y",
+  "timeBound": "N",
+  "tbId": "wt_tab_016_"
+}

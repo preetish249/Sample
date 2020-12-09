@@ -1,0 +1,103 @@
+{
+  "name": "cust_docs",
+  "type": "DATASTORE",
+  "tbId": "wt_tab_033_",
+  "columns": [
+    {
+      "length": 22,
+      "dataType": "STRING",
+      "defValue": "",
+      "name": "CUST_ID",
+      "pkColumn": true,
+      "mandatory": true
+    },
+    {
+      "dataType": "STRING",
+      "length": 45,
+      "defValue": "",
+      "name": "DOC_ID",
+      "pkColumn": true,
+      "mandatory": true
+    },
+    {
+      "dataType": "STRING",
+      "length": 45,
+      "defValue": "",
+      "name": "DOC_TYPE",
+      "pkColumn": false,
+      "mandatory": true
+    },
+    {
+      "dataType": "STRING",
+      "length": 45,
+      "defValue": "",
+      "name": "AUTHORITY",
+      "pkColumn": false,
+      "mandatory": false
+    },
+    {
+      "length": 11,
+      "dataType": "DATE",
+      "defValue": "NULL",
+      "name": "ISSUE_DATE",
+      "pkColumn": false,
+      "mandatory": false
+    },
+    {
+      "dataType": "DATE",
+      "length": 11,
+      "defValue": "NULL",
+      "name": "EXPIRY_DATE",
+      "pkColumn": false,
+      "mandatory": false
+    },
+    {
+      "dataType": "INTEGER",
+      "length": 11,
+      "defValue": "",
+      "name": "NO_OF_PAGES",
+      "pkColumn": false,
+      "mandatory": false
+    },
+    {
+      "dataType": "STRING",
+      "length": 15,
+      "defValue": "",
+      "name": "STATUS",
+      "pkColumn": false,
+      "mandatory": true
+    },
+    {
+      "dataType": "STRING",
+      "length": 15,
+      "defValue": "",
+      "name": "DOC_MODE",
+      "pkColumn": false,
+      "mandatory": true
+    },
+    {
+      "dataType": "STRING",
+      "length": 100,
+      "defValue": "",
+      "name": "REMARKS",
+      "pkColumn": false,
+      "mandatory": false
+    },
+    {
+      "length": 45,
+      "dataType": "STRING",
+      "defValue": "",
+      "name": "DOC_NO",
+      "pkColumn": false,
+      "mandatory": false
+    },
+    {
+      "name": "OWNER",
+      "length": 100,
+      "defValue": "",
+      "dataType": "STRING",
+      "pkColumn": false,
+      "mandatory": true
+    }
+  ]
+}

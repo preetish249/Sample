@@ -1,0 +1,21 @@
+{
+  "name": "xstpDOB",
+  "desc": "Date of Birth",
+  "type": "SIMPLESMARTTYPE",
+  "dataType": "DATE",
+  "smartType": "CUSTPTRN",
+  "drvType": "INPUT",
+  "customPattern": "MM-DD-YY",
+  "maxLen": "",
+  "minLen": "",
+  "regExprsn": "",
+  "strValidationType": "",
+  "maxVal": "",
+  "minVal": "8",
+  "maxDecimals": "",
+  "maxDate": "",
+  "minDate": "",
+  "mandatory": "Y",
+  "timeBound": "N",
+  "tbId": "wt_tab_012_"
+}

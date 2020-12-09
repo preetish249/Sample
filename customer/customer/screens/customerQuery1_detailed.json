@@ -1,0 +1,665 @@
+{
+  "name": "customerQuery1_detailed",
+  "desc": "customerQuery1_detailed screen",
+  "type": "SCREEN",
+  "scrCategory": "DETAILED",
+  "childs": [],
+  "childsMap": {},
+  "dsgnrIdCntr": 9,
+  "header": {
+    "elmId": "header",
+    "childs": [],
+    "dsgnrId": "header"
+  },
+  "sidebar": {
+    "elmId": "sidebar",
+    "childs": [],
+    "dsgnrId": "sidebar"
+  },
+  "body": {
+    "elmId": "body",
+    "dsgnrId": "body",
+    "childs": [
+      {
+        "custAttrs": [
+          {
+            "attrName": "",
+            "attrValue": ""
+          }
+        ],
+        "elmId": "panel",
+        "elmType": "COMPLEX",
+        "elmSubType": "PANEL",
+        "dsgnrId": "customerQuery1_detailed_000000001",
+        "variations": "TRANSPARENT",
+        "paddingAllValue": 3,
+        "childs": [
+          {
+            "elmId": "navbar",
+            "elmType": "COMPLEX",
+            "elmSubType": "NAVBAR",
+            "dsgnrId": "customerQuery1_detailed_000000002",
+            "variations": "TRANSPARENT",
+            "childs": [
+              {
+                "rows": [],
+                "cols": [],
+                "elmId": "grid",
+                "elmType": "GRID",
+                "elmSubType": "GRID",
+                "dsgnrId": "customerQuery1_detailed_000000003",
+                "gridtype": "RESPONSIVE",
+                "responsivecolcount": 2,
+                "childs": [
+                  {
+                    "elmId": "cell",
+                    "elmType": "COMPLEX",
+                    "elmSubType": "CELL",
+                    "dsgnrId": "customerQuery1_detailed_000000004",
+                    "phonelandscape": "xle-sm-col2",
+                    "phoneportrait": "xle-ti-col2",
+                    "desktop": "xle-lg-col2",
+                    "tablet": "xle-md-col2",
+                    "widescreen": "xle-xl-col4",
+                    "childs": [
+                      {
+                        "align": "left",
+                        "type": "h5",
+                        "value": "Text",
+                        "format": "Normal",
+                        "elmId": "text",
+                        "elmType": "SIMPLE",
+                        "elmSubType": "TEXT",
+                        "dsgnrId": "customerQuery1_detailed_000000005",
+                        "id": "headerTitle",
+                        "width": "100",
+                        "widthType": "%",
+                        "events": []
+                      }
+                    ]
+                  },
+                  {
+                    "elmId": "cell",
+                    "elmType": "COMPLEX",
+                    "elmSubType": "CELL",
+                    "dsgnrId": "customerQuery1_detailed_000000006",
+                    "phonelandscape": "xle-sm-col10",
+                    "phoneportrait": "xle-ti-col10",
+                    "desktop": "xle-lg-col10",
+                    "tablet": "xle-md-col10",
+                    "widescreen": "xle-xl-col8",
+                    "justifyself": "RIGHT",
+                    "elementstack": "HORIZONTAL",
+                    "childs": [
+                      {
+                        "align": "left",
+                        "elmId": "button",
+                        "elmType": "SIMPLE",
+                        "elmSubType": "BUTTON",
+                        "dsgnrId": "customerQuery1_detailed_000000007",
+                        "id": "querybtn",
+                        "icon": "fa fa-search",
+                        "iconposition": "RIGHT",
+                        "classes": "mr-1",
+                        "variations": "PRIMARY",
+                        "style": "round",
+                        "size": "sm",
+                        "shadow": "Y",
+                        "maxWidth": "35",
+                        "maxWidthType": "px",
+                        "events": [
+                          {
+                            "eventname": "onclick",
+                            "eventfunction": "query"
+                          }
+                        ]
+                      },
+                      {
+                        "align": "left",
+                        "elmId": "button",
+                        "elmType": "SIMPLE",
+                        "elmSubType": "BUTTON",
+                        "dsgnrId": "customerQuery1_detailed_000000008",
+                        "id": "newbtn",
+                        "icon": "fa fa-plus",
+                        "iconposition": "RIGHT",
+                        "classes": "mr-1",
+                        "variations": "PRIMARY",
+                        "size": "sm",
+                        "style": "round",
+                        "shadow": "Y",
+                        "maxWidth": "35",
+                        "maxWidthType": "px",
+                        "events": [
+                          {
+                            "eventname": "onclick",
+                            "eventfunction": "create"
+                          }
+                        ]
+                      },
+                      {
+                        "align": "left",
+                        "elmId": "button",
+                        "elmType": "SIMPLE",
+                        "elmSubType": "BUTTON",
+                        "dsgnrId": "customerQuery1_detailed_000000009",
+                        "id": "savebtn",
+                        "icon": "fa fa-save",
+                        "iconposition": "RIGHT",
+                        "classes": "mr-1",
+                        "variations": "PRIMARY",
+                        "size": "sm",
+                        "style": "round",
+                        "shadow": "Y",
+                        "maxWidth": "35",
+                        "maxWidthType": "px",
+                        "events": [
+                          {
+                            "eventname": "onclick",
+                            "eventfunction": "modify"
+                          }
+                        ]
+                      },
+                      {
+                        "align": "left",
+                        "elmId": "button",
+                        "elmType": "SIMPLE",
+                        "elmSubType": "BUTTON",
+                        "dsgnrId": "customerQuery1_detailed_000000010",
+                        "id": "deletebtn",
+                        "icon": "fa fa-trash",
+                        "iconposition": "RIGHT",
+                        "classes": "mr-1",
+                        "variations": "PRIMARY",
+                        "size": "sm",
+                        "style": "round",
+                        "shadow": "Y",
+                        "maxWidth": "35",
+                        "maxWidthType": "px",
+                        "events": [
+                          {
+                            "eventname": "onclick",
+                            "eventfunction": "delete"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "custAttrs": [
+          {
+            "attrName": "",
+            "attrValue": ""
+          }
+        ],
+        "elmId": "panel",
+        "elmType": "COMPLEX",
+        "elmSubType": "PANEL",
+        "dsgnrId": "customerQuery1_detailed_000000011",
+        "id": "customer_form",
+        "variations": "PRIMARY",
+        "paddingAllValue": 3,
+        "childs": [
+          {
+            "custAttrs": [
+              {
+                "attrName": "",
+                "attrValue": ""
+              }
+            ],
+            "elmId": "form",
+            "elmType": "COMPLEX",
+            "elmSubType": "FORM",
+            "dsgnrId": "customerQuery1_detailed_000000012",
+            "paddingBottomValue": 4,
+            "childs": [
+              {
+                "rows": [],
+                "cols": [],
+                "elmId": "grid",
+                "elmType": "GRID",
+                "elmSubType": "GRID",
+                "dsgnrId": "customerQuery1_detailed_000000013",
+                "gridtype": "RESPONSIVE",
+                "childs": [
+                  {
+                    "elmId": "cell",
+                    "elmType": "COMPLEX",
+                    "elmSubType": "CELL",
+                    "dsgnrId": "customerQuery1_detailed_000000014",
+                    "phonelandscape": "xle-sm-col12",
+                    "phoneportrait": "xle-ti-col12",
+                    "desktop": "xle-lg-col12",
+                    "tablet": "xle-md-col12",
+                    "widescreen": "xle-xl-col4",
+                    "childs": [
+                      {
+                        "elmId": "input",
+                        "elmType": "SIMPLE",
+                        "elmSubType": "INPUT",
+                        "dsgnrId": "customerQuery1_detailed_000000020",
+                        "title": "Customer Id",
+                        "xpath": "customer.custDtls.custId"
+                      }
+                    ]
+                  },
+                  {
+                    "elmId": "cell",
+                    "elmType": "COMPLEX",
+                    "elmSubType": "CELL",
+                    "dsgnrId": "customerQuery1_detailed_000000015",
+                    "phonelandscape": "xle-sm-col12",
+                    "phoneportrait": "xle-ti-col12",
+                    "desktop": "xle-lg-col12",
+                    "tablet": "xle-md-col12",
+                    "widescreen": "xle-xl-col4",
+                    "childs": [
+                      {
+                        "elmId": "input",
+                        "elmType": "SIMPLE",
+                        "elmSubType": "INPUT",
+                        "dsgnrId": "customerQuery1_detailed_000000021",
+                        "title": "First Name",
+                        "xpath": "customer.custDtls.firstName"
+                      }
+                    ]
+                  },
+                  {
+                    "elmId": "cell",
+                    "elmType": "COMPLEX",
+                    "elmSubType": "CELL",
+                    "dsgnrId": "customerQuery1_detailed_000000016",
+                    "phonelandscape": "xle-sm-col12",
+                    "phoneportrait": "xle-ti-col12",
+                    "desktop": "xle-lg-col12",
+                    "tablet": "xle-md-col12",
+                    "widescreen": "xle-xl-col4",
+                    "childs": [
+                      {
+                        "elmId": "input",
+                        "elmType": "SIMPLE",
+                        "elmSubType": "INPUT",
+                        "dsgnrId": "customerQuery1_detailed_000000022",
+                        "title": "Middle Name",
+                        "xpath": "customer.custDtls.middleName"
+                      }
+                    ]
+                  },
+                  {
+                    "elmId": "cell",
+                    "elmType": "COMPLEX",
+                    "elmSubType": "CELL",
+                    "dsgnrId": "customerQuery1_detailed_000000017",
+                    "phonelandscape": "xle-sm-col12",
+                    "phoneportrait": "xle-ti-col12",
+                    "desktop": "xle-lg-col12",
+                    "tablet": "xle-md-col12",
+                    "widescreen": "xle-xl-col4",
+                    "childs": [
+                      {
+                        "elmId": "input",
+                        "elmType": "SIMPLE",
+                        "elmSubType": "INPUT",
+                        "dsgnrId": "customerQuery1_detailed_000000023",
+                        "title": "Last Name",
+                        "xpath": "customer.custDtls.lastName"
+                      }
+                    ]
+                  },
+                  {
+                    "elmId": "cell",
+                    "elmType": "COMPLEX",
+                    "elmSubType": "CELL",
+                    "dsgnrId": "customerQuery1_detailed_000000018",
+                    "phonelandscape": "xle-sm-col12",
+                    "phoneportrait": "xle-ti-col12",
+                    "desktop": "xle-lg-col12",
+                    "tablet": "xle-md-col12",
+                    "widescreen": "xle-xl-col4",
+                    "childs": [
+                      {
+                        "elmId": "input",
+                        "elmType": "SIMPLE",
+                        "elmSubType": "INPUT",
+                        "dsgnrId": "customerQuery1_detailed_000000024",
+                        "title": "Date of Birth",
+                        "xpath": "customer.custDtls.dob",
+                        "inputtype": "DATE"
+                      }
+                    ]
+                  },
+                  {
+                    "elmId": "cell",
+                    "elmType": "COMPLEX",
+                    "elmSubType": "CELL",
+                    "dsgnrId": "customerQuery1_detailed_000000019",
+                    "phonelandscape": "xle-sm-col12",
+                    "phoneportrait": "xle-ti-col12",
+                    "desktop": "xle-lg-col12",
+                    "tablet": "xle-md-col12",
+                    "widescreen": "xle-xl-col4",
+                    "childs": [
+                      {
+                        "elmId": "input",
+                        "elmType": "SIMPLE",
+                        "elmSubType": "INPUT",
+                        "dsgnrId": "customerQuery1_detailed_000000025",
+                        "title": "Annual Salary",
+                        "xpath": "customer.custDtls.annualSalary"
+                      }
+                    ]
+                  }
+                ],
+                "responsivecolcount": 6
+              }
+            ],
+            "title": "Node"
+          },
+          {
+            "custAttrs": [
+              {
+                "attrName": "",
+                "attrValue": ""
+              }
+            ],
+            "elmId": "form",
+            "elmType": "COMPLEX",
+            "elmSubType": "FORM",
+            "dsgnrId": "customerQuery1_detailed_000000026",
+            "paddingBottomValue": 4,
+            "childs": [
+              {
+                "rows": [],
+                "cols": [],
+                "elmId": "grid",
+                "elmType": "GRID",
+                "elmSubType": "GRID",
+                "dsgnrId": "customerQuery1_detailed_000000027",
+                "gridtype": "RESPONSIVE",
+                "childs": [
+                  {
+                    "elmId": "cell",
+                    "elmType": "COMPLEX",
+                    "elmSubType": "CELL",
+                    "dsgnrId": "customerQuery1_detailed_000000028",
+                    "phonelandscape": "xle-sm-col12",
+                    "phoneportrait": "xle-ti-col12",
+                    "desktop": "xle-lg-col12",
+                    "tablet": "xle-md-col12",
+                    "widescreen": "xle-xl-col4",
+                    "childs": [
+                      {
+                        "elmId": "input",
+                        "elmType": "SIMPLE",
+                        "elmSubType": "INPUT",
+                        "dsgnrId": "customerQuery1_detailed_000000034",
+                        "title": "Customer Qulification",
+                        "xpath": "customer.custDtls.custPrsnlDtls.qulification"
+                      }
+                    ]
+                  },
+                  {
+                    "elmId": "cell",
+                    "elmType": "COMPLEX",
+                    "elmSubType": "CELL",
+                    "dsgnrId": "customerQuery1_detailed_000000029",
+                    "phonelandscape": "xle-sm-col12",
+                    "phoneportrait": "xle-ti-col12",
+                    "desktop": "xle-lg-col12",
+                    "tablet": "xle-md-col12",
+                    "widescreen": "xle-xl-col4",
+                    "childs": [
+                      {
+                        "elmId": "input",
+                        "elmType": "SIMPLE",
+                        "elmSubType": "INPUT",
+                        "dsgnrId": "customerQuery1_detailed_000000035",
+                        "title": "Spouse Name",
+                        "xpath": "customer.custDtls.custPrsnlDtls.spouseName"
+                      }
+                    ]
+                  },
+                  {
+                    "elmId": "cell",
+                    "elmType": "COMPLEX",
+                    "elmSubType": "CELL",
+                    "dsgnrId": "customerQuery1_detailed_000000030",
+                    "phonelandscape": "xle-sm-col12",
+                    "phoneportrait": "xle-ti-col12",
+                    "desktop": "xle-lg-col12",
+                    "tablet": "xle-md-col12",
+                    "widescreen": "xle-xl-col4",
+                    "childs": [
+                      {
+                        "elmId": "input",
+                        "elmType": "SIMPLE",
+                        "elmSubType": "INPUT",
+                        "dsgnrId": "customerQuery1_detailed_000000036",
+                        "title": "No of Children",
+                        "xpath": "customer.custDtls.custPrsnlDtls.noOfChildren"
+                      }
+                    ]
+                  },
+                  {
+                    "elmId": "cell",
+                    "elmType": "COMPLEX",
+                    "elmSubType": "CELL",
+                    "dsgnrId": "customerQuery1_detailed_000000031",
+                    "phonelandscape": "xle-sm-col12",
+                    "phoneportrait": "xle-ti-col12",
+                    "desktop": "xle-lg-col12",
+                    "tablet": "xle-md-col12",
+                    "widescreen": "xle-xl-col4",
+                    "childs": [
+                      {
+                        "elmId": "input",
+                        "elmType": "SIMPLE",
+                        "elmSubType": "INPUT",
+                        "dsgnrId": "customerQuery1_detailed_000000037",
+                        "title": "Anniversary",
+                        "xpath": "customer.custDtls.custPrsnlDtls.anniversary",
+                        "inputtype": "DATE"
+                      }
+                    ]
+                  },
+                  {
+                    "elmId": "cell",
+                    "elmType": "COMPLEX",
+                    "elmSubType": "CELL",
+                    "dsgnrId": "customerQuery1_detailed_000000032",
+                    "phonelandscape": "xle-sm-col12",
+                    "phoneportrait": "xle-ti-col12",
+                    "desktop": "xle-lg-col12",
+                    "tablet": "xle-md-col12",
+                    "widescreen": "xle-xl-col4",
+                    "childs": [
+                      {
+                        "elmId": "input",
+                        "elmType": "SIMPLE",
+                        "elmSubType": "INPUT",
+                        "dsgnrId": "customerQuery1_detailed_000000038",
+                        "title": "Element",
+                        "xpath": "customer.custDtls.custPrsnlDtls.custid"
+                      }
+                    ]
+                  },
+                  {
+                    "elmId": "cell",
+                    "elmType": "COMPLEX",
+                    "elmSubType": "CELL",
+                    "dsgnrId": "customerQuery1_detailed_000000033",
+                    "phonelandscape": "xle-sm-col12",
+                    "phoneportrait": "xle-ti-col12",
+                    "desktop": "xle-lg-col12",
+                    "tablet": "xle-md-col12",
+                    "widescreen": "xle-xl-col4",
+                    "childs": [
+                      {
+                        "elmId": "input",
+                        "elmType": "SIMPLE",
+                        "elmSubType": "INPUT",
+                        "dsgnrId": "customerQuery1_detailed_000000039",
+                        "title": "Element",
+                        "xpath": "customer.custDtls.custPrsnlDtls.name"
+                      }
+                    ]
+                  }
+                ],
+                "responsivecolcount": 6
+              }
+            ],
+            "title": "Customer Personal Details"
+          },
+          {
+            "elmId": "table",
+            "elmType": "COMPLEX",
+            "elmSubType": "TABLE",
+            "dsgnrId": "customerQuery1_detailed_000000040",
+            "editable": "Y",
+            "multiple": "Y",
+            "selectAll": "Y",
+            "search": "N",
+            "paginationtype": "full_numbers",
+            "events": [],
+            "title": "Node",
+            "childs": [
+              {
+                "elmId": "input",
+                "elmType": "SIMPLE",
+                "elmSubType": "INPUT",
+                "dsgnrId": "customerQuery1_detailed_000000041",
+                "title": "Customer Id",
+                "xpath": "customer.custDtls.custPrsnlDtls.custDependents[recno].custid"
+              },
+              {
+                "elmId": "input",
+                "elmType": "SIMPLE",
+                "elmSubType": "INPUT",
+                "dsgnrId": "customerQuery1_detailed_000000042",
+                "title": "DependentId",
+                "xpath": "customer.custDtls.custPrsnlDtls.custDependents[recno].dependentid"
+              },
+              {
+                "elmId": "input",
+                "elmType": "SIMPLE",
+                "elmSubType": "INPUT",
+                "dsgnrId": "customerQuery1_detailed_000000043",
+                "title": "Dependent Name",
+                "xpath": "customer.custDtls.custPrsnlDtls.custDependents[recno].name"
+              },
+              {
+                "elmId": "input",
+                "elmType": "SIMPLE",
+                "elmSubType": "INPUT",
+                "dsgnrId": "customerQuery1_detailed_000000044",
+                "title": "Depenent Relation",
+                "xpath": "customer.custDtls.custPrsnlDtls.custDependents[recno].relation"
+              },
+              {
+                "elmId": "input",
+                "elmType": "SIMPLE",
+                "elmSubType": "INPUT",
+                "dsgnrId": "customerQuery1_detailed_000000045",
+                "title": "Age of Dependent",
+                "xpath": "customer.custDtls.custPrsnlDtls.custDependents[recno].age"
+              },
+              {
+                "elmId": "input",
+                "elmType": "SIMPLE",
+                "elmSubType": "INPUT",
+                "dsgnrId": "customerQuery1_detailed_000000046",
+                "title": "Dependent DOB",
+                "xpath": "customer.custDtls.custPrsnlDtls.custDependents[recno].dob",
+                "inputtype": "DATE"
+              },
+              {
+                "elmId": "input",
+                "elmType": "SIMPLE",
+                "elmSubType": "INPUT",
+                "dsgnrId": "customerQuery1_detailed_000000047",
+                "title": "Element",
+                "xpath": "customer.custDtls.custPrsnlDtls.custDependents[recno].dependentof"
+              }
+            ]
+          },
+          {
+            "elmId": "table",
+            "elmType": "COMPLEX",
+            "elmSubType": "TABLE",
+            "dsgnrId": "customerQuery1_detailed_000000048",
+            "editable": "Y",
+            "multiple": "Y",
+            "selectAll": "Y",
+            "search": "N",
+            "paginationtype": "full_numbers",
+            "events": [],
+            "title": "Customer Documents",
+            "childs": [
+              {
+                "elmId": "input",
+                "elmType": "SIMPLE",
+                "elmSubType": "INPUT",
+                "dsgnrId": "customerQuery1_detailed_000000049",
+                "title": "Document ID",
+                "xpath": "customer.custDtls.custDocs[recno].docId"
+              },
+              {
+                "elmId": "input",
+                "elmType": "SIMPLE",
+                "elmSubType": "INPUT",
+                "dsgnrId": "customerQuery1_detailed_000000050",
+                "title": "Document Type",
+                "xpath": "customer.custDtls.custDocs[recno].docType"
+              },
+              {
+                "elmId": "input",
+                "elmType": "SIMPLE",
+                "elmSubType": "INPUT",
+                "dsgnrId": "customerQuery1_detailed_000000051",
+                "title": "Document Number",
+                "xpath": "customer.custDtls.custDocs[recno].docNo"
+              },
+              {
+                "elmId": "input",
+                "elmType": "SIMPLE",
+                "elmSubType": "INPUT",
+                "dsgnrId": "customerQuery1_detailed_000000052",
+                "title": "Document Expairy Date",
+                "xpath": "customer.custDtls.custDocs[recno].expDate",
+                "inputtype": "DATE"
+              },
+              {
+                "elmId": "input",
+                "elmType": "SIMPLE",
+                "elmSubType": "INPUT",
+                "dsgnrId": "customerQuery1_detailed_000000053",
+                "title": "Element",
+                "xpath": "customer.custDtls.custDocs[recno].custid"
+              },
+              {
+                "elmId": "input",
+                "elmType": "SIMPLE",
+                "elmSubType": "INPUT",
+                "dsgnrId": "customerQuery1_detailed_000000054",
+                "title": "Element",
+                "xpath": "customer.custDtls.custDocs[recno].owner"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "paddingAllValue": 3
+  },
+  "footer": {
+    "elmId": "footer",
+    "childs": [],
+    "dsgnrId": "footer"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "xstpRelation",
+  "desc": "Relation",
+  "type": "SIMPLESMARTTYPE",
+  "dataType": "STRING",
+  "smartType": "",
+  "drvType": "INPUT",
+  "customPattern": "",
+  "maxLen": "",
+  "minLen": "",
+  "regExprsn": "",
+  "strValidationType": "Numeric",
+  "maxVal": "",
+  "minVal": "8",
+  "maxDecimals": "",
+  "maxDate": "",
+  "minDate": "",
+  "mandatory": "N",
+  "timeBound": "N",
+  "tbId": "wt_tab_017_"
+}

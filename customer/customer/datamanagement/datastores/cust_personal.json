@@ -1,0 +1,159 @@
+{
+  "name": "cust_personal",
+  "type": "DATASTORE",
+  "tbId": "wt_tab_035_",
+  "columns": [
+    {
+      "length": 20,
+      "dataType": "STRING",
+      "defValue": "",
+      "name": "CUST_ID",
+      "pkColumn": true,
+      "mandatory": true
+    },
+    {
+      "dataType": "INTEGER",
+      "length": 11,
+      "defValue": "NULL",
+      "name": "NO_OF_CHILDREN",
+      "pkColumn": false,
+      "mandatory": false
+    },
+    {
+      "length": 45,
+      "defValue": "NULL",
+      "dataType": "STRING",
+      "name": "PLACE_OF_BIRTH",
+      "pkColumn": false,
+      "mandatory": false
+    },
+    {
+      "length": 45,
+      "defValue": "NULL",
+      "dataType": "STRING",
+      "name": "SPOUSE_NAME",
+      "pkColumn": false,
+      "mandatory": false
+    },
+    {
+      "length": 20,
+      "dataType": "STRING",
+      "defValue": "",
+      "name": "DL_NO",
+      "pkColumn": false,
+      "mandatory": false
+    },
+    {
+      "dataType": "DATE",
+      "length": 11,
+      "defValue": "",
+      "name": "DL_EXP_DATE",
+      "pkColumn": false,
+      "mandatory": false
+    },
+    {
+      "length": 10,
+      "defValue": "NULL",
+      "dataType": "STRING",
+      "name": "PAN_NO",
+      "pkColumn": false,
+      "mandatory": false
+    },
+    {
+      "dataType": "FLOAT",
+      "length": 10,
+      "defValue": "NULL",
+      "name": "SALARY",
+      "pkColumn": false,
+      "mandatory": false
+    },
+    {
+      "length": 45,
+      "defValue": "NULL",
+      "dataType": "STRING",
+      "name": "JOB_TYPE",
+      "pkColumn": false,
+      "mandatory": false
+    },
+    {
+      "length": 45,
+      "defValue": "NULL",
+      "dataType": "STRING",
+      "name": "JOB_TITLE",
+      "pkColumn": false,
+      "mandatory": false
+    },
+    {
+      "dataType": "DATE",
+      "defValue": "NULL",
+      "length": 11,
+      "name": "JOINING_DATE",
+      "pkColumn": false,
+      "mandatory": false
+    },
+    {
+      "dataType": "INTEGER",
+      "length": 11,
+      "defValue": "NULL",
+      "name": "YEARS_OF_EXPERIANCE",
+      "pkColumn": false,
+      "mandatory": false
+    },
+    {
+      "length": 45,
+      "defValue": "NULL",
+      "dataType": "STRING",
+      "name": "COMPANY_NAME",
+      "pkColumn": false,
+      "mandatory": false
+    },
+    {
+      "length": 45,
+      "defValue": "NULL",
+      "dataType": "STRING",
+      "name": "DEPARTMENT_NAME",
+      "pkColumn": false,
+      "mandatory": false
+    },
+    {
+      "length": 100,
+      "defValue": "NULL",
+      "dataType": "STRING",
+      "name": "COMPANY_EMAIL",
+      "pkColumn": false,
+      "mandatory": false
+    },
+    {
+      "length": 100,
+      "defValue": "NULL",
+      "dataType": "STRING",
+      "name": "PERSONAL_EMAIL",
+      "pkColumn": false,
+      "mandatory": false
+    },
+    {
+      "length": 20,
+      "defValue": "NULL",
+      "dataType": "STRING",
+      "name": "QUALIFICATION",
+      "pkColumn": false,
+      "mandatory": false
+    },
+    {
+      "dataType": "DATE",
+      "defValue": "NULL",
+      "length": 11,
+      "name": "ANNIVERSARY",
+      "pkColumn": false,
+      "mandatory": false
+    },
+    {
+      "name": "CUST_NAME",
+      "length": 100,
+      "defValue": "NULL",
+      "dataType": "STRING",
+      "pkColumn": false,
+      "mandatory": false
+    }
+  ]
+}

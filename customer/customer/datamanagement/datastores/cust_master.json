@@ -1,0 +1,127 @@
+{
+  "name": "cust_master",
+  "type": "DATASTORE",
+  "tbId": "wt_tab_035_",
+  "columns": [
+    {
+      "length": 20,
+      "dataType": "STRING",
+      "defValue": "",
+      "name": "CUST_ID",
+      "pkColumn": true,
+      "mandatory": true
+    },
+    {
+      "length": 45,
+      "defValue": "NULL",
+      "dataType": "STRING",
+      "name": "FIRST_NAME",
+      "pkColumn": false,
+      "mandatory": true
+    },
+    {
+      "length": 45,
+      "defValue": "NULL",
+      "dataType": "STRING",
+      "name": "MIDDLE_NAME",
+      "pkColumn": false,
+      "mandatory": false
+    },
+    {
+      "length": 45,
+      "defValue": "NULL",
+      "dataType": "STRING",
+      "name": "LAST_NAME",
+      "pkColumn": false,
+      "mandatory": true
+    },
+    {
+      "dataType": "DATE",
+      "defValue": "NULL",
+      "length": 11,
+      "name": "DATE_OF_BIRTH",
+      "pkColumn": false,
+      "mandatory": true
+    },
+    {
+      "length": 45,
+      "defValue": "NULL",
+      "dataType": "STRING",
+      "name": "COUNTRY",
+      "pkColumn": false,
+      "mandatory": true
+    },
+    {
+      "length": 20,
+      "defValue": "NULL",
+      "dataType": "STRING",
+      "name": "NATIONALITY",
+      "pkColumn": false,
+      "mandatory": false
+    },
+    {
+      "length": 45,
+      "dataType": "STRING",
+      "defValue": "",
+      "name": "CITY",
+      "pkColumn": false,
+      "mandatory": true
+    },
+    {
+      "length": 10,
+      "dataType": "STRING",
+      "defValue": "NULL",
+      "name": "MOBILE_NO",
+      "pkColumn": false,
+      "mandatory": true
+    },
+    {
+      "length": 8,
+      "defValue": "NULL",
+      "dataType": "STRING",
+      "name": "GENDER",
+      "pkColumn": false,
+      "mandatory": true
+    },
+    {
+      "length": 10,
+      "dataType": "STRING",
+      "defValue": "NULL",
+      "name": "SSN",
+      "pkColumn": false,
+      "mandatory": true
+    },
+    {
+      "length": 10,
+      "defValue": "NULL",
+      "dataType": "STRING",
+      "name": "PASSPORT_NO",
+      "pkColumn": false,
+      "mandatory": true
+    },
+    {
+      "dataType": "DATE",
+      "defValue": "NULL",
+      "length": 11,
+      "name": "PASSPORT_ISSUE_DATE",
+      "pkColumn": false,
+      "mandatory": false
+    },
+    {
+      "dataType": "DATE",
+      "defValue": "NULL",
+      "length": 11,
+      "name": "PASSPORT_EXP_DATE",
+      "pkColumn": false,
+      "mandatory": false
+    },
+    {
+      "dataType": "FLOAT",
+      "length": 12,
+      "defValue": "NULL",
+      "name": "ANNUAL_SALARY",
+      "pkColumn": false,
+      "mandatory": false
+    }
+  ]
+}

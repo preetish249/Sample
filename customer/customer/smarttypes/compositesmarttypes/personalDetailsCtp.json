@@ -1,0 +1,55 @@
+{
+  "name": "personalDetailsCtp",
+  "desc": "",
+  "type": "COMPOSITESMARTTYPE",
+  "childs": [
+    {
+      "name": "qulification",
+      "desc": "Customer Qulification",
+      "type": "ELEMENT",
+      "smartTypeName": "xstpName"
+    },
+    {
+      "name": "spouseName",
+      "desc": "Spouse Name",
+      "type": "ELEMENT",
+      "smartTypeName": "xstpName"
+    },
+    {
+      "name": "noOfChildren",
+      "desc": "No of Children",
+      "type": "ELEMENT",
+      "smartTypeName": "xstpChildren"
+    },
+    {
+      "name": "anniversary",
+      "desc": "Anniversary",
+      "type": "ELEMENT",
+      "smartTypeName": "xstpDate"
+    },
+    {
+      "type": "ELEMENT",
+      "smartTypeName": "xstpCustId",
+      "name": "custid",
+      "desc": "Element"
+    },
+    {
+      "type": "ELEMENT",
+      "smartTypeName": "xstpName",
+      "name": "name",
+      "desc": "Element"
+    },
+    {
+      "type": "NODE",
+      "smartTypeName": "dependentsCtp",
+      "name": "custDependents",
+      "desc": "Node",
+      "inherited": false,
+      "childs": [],
+      "relationType": "ONETOMANY"
+    }
+  ],
+  "tbId": "wt_tab_023_",
+  "smartTypeName": "",
+  "relationType": "ONETOONE"
+}

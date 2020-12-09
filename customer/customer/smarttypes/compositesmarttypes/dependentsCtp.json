@@ -1,0 +1,52 @@
+{
+  "name": "dependentsCtp",
+  "desc": "",
+  "type": "COMPOSITESMARTTYPE",
+  "childs": [
+    {
+      "name": "custid",
+      "desc": "Customer Id",
+      "type": "ELEMENT",
+      "smartTypeName": "xstpCustId"
+    },
+    {
+      "name": "dependentid",
+      "desc": "DependentId",
+      "type": "ELEMENT",
+      "smartTypeName": "xstpCustId"
+    },
+    {
+      "name": "name",
+      "desc": "Dependent Name",
+      "type": "ELEMENT",
+      "smartTypeName": "xstpName"
+    },
+    {
+      "name": "relation",
+      "desc": "Depenent Relation",
+      "type": "ELEMENT",
+      "smartTypeName": "xstpRelation"
+    },
+    {
+      "name": "age",
+      "desc": "Age of Dependent",
+      "type": "ELEMENT",
+      "smartTypeName": "xstpChildren"
+    },
+    {
+      "name": "dob",
+      "desc": "Dependent DOB",
+      "type": "ELEMENT",
+      "smartTypeName": "xstpDOB"
+    },
+    {
+      "type": "ELEMENT",
+      "smartTypeName": "xstpName",
+      "name": "dependentof",
+      "desc": "Element"
+    }
+  ],
+  "tbId": "wt_tab_021_",
+  "smartTypeName": "",
+  "relationType": "ONETOMANY"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "PROJECT",
+  "desc": "",
+  "name": "customer",
+  "filePath": "D:\\work\\xelerateprojects/customer/customer.json",
+  "relationType": "ONETOONE",
+  "inherited": false,
+  "buildProfiles": [
+    {
+      "name": "New",
+      "uiReq": "N",
+      "logPath": "",
+      "jndiName": "",
+      "firstScreen": "customerQuery1_detailed",
+      "lang": "en"
+    }
+  ]
+}

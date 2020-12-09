@@ -1,0 +1,46 @@
+{
+  "name": "documentsCtp",
+  "desc": "",
+  "type": "COMPOSITESMARTTYPE",
+  "childs": [
+    {
+      "name": "docId",
+      "desc": "Document ID",
+      "type": "ELEMENT",
+      "smartTypeName": "xstpDocId"
+    },
+    {
+      "name": "docType",
+      "desc": "Document Type",
+      "type": "ELEMENT",
+      "smartTypeName": "xstpName"
+    },
+    {
+      "name": "docNo",
+      "desc": "Document Number",
+      "type": "ELEMENT",
+      "smartTypeName": "xstpDocNo"
+    },
+    {
+      "name": "expDate",
+      "desc": "Document Expairy Date",
+      "type": "ELEMENT",
+      "smartTypeName": "xstpDate"
+    },
+    {
+      "type": "ELEMENT",
+      "smartTypeName": "xstpCustId",
+      "name": "custid",
+      "desc": "Element"
+    },
+    {
+      "type": "ELEMENT",
+      "smartTypeName": "xstpName",
+      "name": "owner",
+      "desc": "Element"
+    }
+  ],
+  "tbId": "wt_tab_022_",
+  "smartTypeName": "",
+  "relationType": "ONETOMANY"
+}

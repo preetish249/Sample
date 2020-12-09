@@ -1,0 +1,21 @@
+{
+  "name": "xstpDate",
+  "desc": "Date Pattern",
+  "type": "SIMPLESMARTTYPE",
+  "dataType": "DATE",
+  "smartType": "CUSTPTRN",
+  "drvType": "INPUT",
+  "customPattern": "DD/MM/YYYY",
+  "maxLen": "",
+  "minLen": "",
+  "regExprsn": "",
+  "strValidationType": "Numeric",
+  "maxVal": "",
+  "minVal": "8",
+  "maxDecimals": "",
+  "maxDate": "",
+  "minDate": "",
+  "mandatory": "Y",
+  "timeBound": "N",
+  "tbId": "wt_tab_011_"
+}
