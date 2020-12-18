@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 //HH:MM:SS
 //NS
+=======
+//HH:MM:SS:MS
+>>>>>>> branch 'main' of https://github.com/preetish249/Sample.git
